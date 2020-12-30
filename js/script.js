@@ -132,7 +132,7 @@ const activityPrice = () => {
 
 //function to organize information/inputs displayed on page based off of payment option
 const payInfo = () => {
-    creditCard.style.display  = "none";
+    paySelect.value           = "credit-card";
     payPal.style.display      = "none";
     bitcoin.style.display     = "none";
     paySelect.addEventListener("change", ()=>{
